@@ -1,0 +1,9 @@
+1.Format strings will raise a error if not given a value which causes more error in the code template strings are just easier and simpler to use and read.
+2.Placeholder are used to make a book mark basically for a template. yes and no you can use templates in strings but normal a string has premade text in already.
+3.I have a basic hello + name + string in my code  and I use HTML or JavaScript elements in the submittion box it would read and understand it but using Escaping can prevent HTML or JavaScript
+to be rendered useless.
+4.The the For loop statment is used in a template. 
+Conditional is required for the loop to start its process for example for peice string to count to ten it would use the conditon less than 1 <=10.
+5.By making templates for all data you plan to reuse or change later it speeds up the process. Basic understand from my perspective is the base template would be your yard,
+and the content block would be your fence, and the extension would be the gate in the fence to the back yard. basically the block content keeps the base template from being to diffcult to read.
+when adding new code via the extension feature. 
