@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+        <h1>Signup</h1>
+
+        <form action="/validate" method="POST">
+            <br><label>Username: 
+                <input type='text' name='name' value={{name}} >
+                {% if name_error %}
+                <span class="error">{{name_error}}</span>
+                {% endif %}
+            </label>
+            <br><label>Password: 
+                <input type='password' name='password' value={{password}} >
+                {% if password_error %}
+                <span class="error">{{password_error}}</span>
+                {% endif %}
+            </label>
+            <br><label>Verify Password: 
+                <input type='password' name='password_verify' value={{password_verify}} >
+                {% if password_match_error %}
+                <span class="error">{{password_match_error}}</span>
+                {% endif %}
+            </label>
+            <br><label>E-mail address: 
+                <input type='text' name='email' value={{email}} >
+                {% if email_error %}
+                <span class="error">{{email_error}}</span>
+                {% endif %}
+            </label>
+            <br><input type='submit'/>
+        </form>
